@@ -5,7 +5,7 @@ public class Movie {
     int movieId;
     String movieName;
     int movieDurationInMinutes;
-    //other details like Genere, Language etc.
+    //other details like Genere, description, Language etc.
     
     
     public Movie(int movieId, String movieName, int movieDurationInMinutes){
