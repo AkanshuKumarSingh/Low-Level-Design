@@ -82,7 +82,7 @@ public class BookMyShow {
 
         Map<Theatre, List<Show>> showsTheatreWise = theatreController.getAllShow(interestedMovie, city);
         for (Map.Entry<Theatre, List<Show>> entry : showsTheatreWise.entrySet()) {
-            Theatre t = entry.getKey();
+            Theatre t = entry.getKey(); // TODO: check it
             List<Show> s = entry.getValue();
             for(Show currentShow : s){
                 int seatNumber = 30;
